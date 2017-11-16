@@ -80,7 +80,6 @@ public class WsclientApplication implements CommandLineRunner {
                         }
                         // "inmemory" acts here as a hostname, will be removed in InMemoryClientContainer.
                     }
-                }, cec, URI.create("wss://api-low.765qlw.com/websocket"));
-//        URI.create("wss://api-svip.765qlw.com/websocket")
+                }, cec, URI.create("ws://localhost:9090"));
     }
 }
